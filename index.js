@@ -51,6 +51,7 @@ for (let i = 0; i < filePathList.length; i++) {
   });
 
   const fileNameHash = hashFnv32a(path.basename(filePath));
+  console.log("Extract query from " + filePath);
   const query = compress(content);
   queryMap[query] = fileNameHash;
 }

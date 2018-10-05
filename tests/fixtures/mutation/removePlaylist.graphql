@@ -1,5 +1,0 @@
-mutation ($playlistIDs: [ID]!) {
-    deletePlaylist(IDs: $playlistIDs) {
-        ID
-    }
-}
